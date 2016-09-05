@@ -1,0 +1,4 @@
+RewriteEngine on
+Rewritecond %{HTTP_HOST} ^exemple.com
+Rewritecond %{REQUEST_URI} !^/avent2/www
+Rewriterule ^(.*)$ /avent2/www
